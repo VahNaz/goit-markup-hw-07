@@ -2,12 +2,12 @@
     padding-top: 94px;
 }
 
-.section-advantages__list-item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .section-advantages__list-item {
     width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 
 }
 
